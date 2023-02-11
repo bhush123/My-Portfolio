@@ -1,0 +1,582 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jost&family=Lobster&family=Open+Sans&family=Poppins&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jost&family=Lobster&family=Open+Sans&family=Poppins&family=Sono&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jost&family=Kanit&family=Lobster&family=Open+Sans&family=Poppins&family=Sono&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jost&family=Kanit&family=Lobster&family=Oleo+Script&family=Open+Sans&family=Poppins&family=Sono&family=Yellowtail&display=swap');
+:root{
+    --primaryColor:#111827;
+}
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.control-4 {
+    position: relative;
+    top: -265px;
+}
+.colorsFont{
+    color: #E6ECF5;
+}
+.top-1:hover{
+    background-color:#C280D2;
+    transition: .5s ease-in-out;
+}
+.top-1{
+    transition: .5s ease-in-out;
+    z-index: 999;
+}
+.imgScale:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in;
+}
+.imgScale{
+    transition: .2s ease-in; 
+}
+.greenDressBg{
+    overflow: hidden;
+}
+.card-1:hover{
+    transform: translateY(-12px);
+    transition: .2s ease-in;
+}.card-1{
+    transition: .2s ease-in;
+
+}
+.commonFontcolor{
+    color: #0F172A;
+}
+ul,a{
+    list-style: none;
+    text-decoration: none;
+}
+.oleoScript{
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;
+}
+.oleoScript-family{
+    font-family: 'Oleo Script', cursive;
+  }
+.mainBGcolor{
+    background-color: var(--primaryColor);
+}
+.MenWomen:hover{
+     background-color:rgb(30 41 59);
+     border-radius:50px;
+}
+.dropdown-item:hover {
+    background-color:rgb(30 41 59);
+    border-radius: 5px;
+}
+.dropdown-1{
+    top:40px;
+    transition: 0.5s ease-in-out;
+}
+.dropdown:hover .dropdown-1{
+    display: block;
+}
+.dropdown-submenu:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-submenu{
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu{
+    top: 0;
+    margin-top: -5px;
+    left: 100%;
+}
+.chevron-size{
+    font-size: 12px;
+}
+.demo-2{
+    color: #8e8a8a;
+    font-size: 14px;
+}
+.demo-2:hover{
+    color: #fff;
+}
+.nav-item-1{
+    position: relative;
+}
+   
+.mega-box{
+    position: absolute;
+    width: 100%;
+    top:160px;
+    left:0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in-out;
+    z-index: 999;
+}
+.nav-item-1:hover .mega-box{
+    opacity: 1;
+    visibility: visible;
+}
+.nav-link{
+    font-size: 15px;
+}
+.modal{
+    margin-top: 4.5rem;
+}
+.btn-close-1{
+    position: absolute;
+    top: 15px;
+    right:20px;
+    background: transparent;
+    border: none;
+    color: #6C757A;
+    font-size: 18px;
+}
+.btn-close:focus{
+    box-shadow: none;
+}
+.badge{
+    font-size: 0.6em;
+     padding: 0.35em 0.6em;
+}
+.btn-color{
+    color: #fff;
+}
+
+.bg-input{
+    background-color:rgb(30 41 59);
+}
+.form-control:focus {
+    /* background-color:rgb(30 41 59); */
+    background-color: #111827;;
+    box-shadow: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+} 
+.bg-shopping{
+  background-color: rgb(14,165,233);
+}
+.dropstart .dropdown-menu[data-bs-popper] {
+    width: 250px;
+    top:55px;
+}
+.user-Size{
+    font-size: 15px;
+    color: #8e8a8a;
+}
+.form-switch .form-check-input:focus{
+    box-shadow: none;
+    border: none;
+}
+.form-check-input:checked{
+    background-color: #134E4A;
+    border: none;
+}
+.form-switch{
+    position: absolute;
+    right: 0;
+    top:6px;
+}
+.clothing{
+    display:inline-block;
+    position: relative;
+    padding: 3px 0;
+}
+.clothing::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: rgb(231, 152, 174);;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease-in-out;
+}
+.clothing:hover::before{
+    width: 70%;
+}
+.heroSection{
+    background-color: #E3FFE6;
+    height: 100vh;
+    background-image: url(../Images/BackgroundLine.2aa0910fef98274b2f4855249cd61c4c.svg);
+}
+.carousel-indicators-1{
+    bottom:-65px;
+}
+.season{
+    color:#334155;
+}
+.season,.exlusive{
+    font-family: 'Oleo Script', cursive;
+}
+.newCollectio{
+    font-family: 'Yellowtail', cursive;
+    margin-top: -8px;
+    color: #0071fe;
+    text-shadow: 0px -3px 0px #fff;
+}
+.Womens{
+ position: absolute;
+ top: 34%;
+ right: 0;
+}
+.stars{
+    color: #FFBD4F;
+}
+.greenDressBg{
+    background-color: #F6F6F6;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+}
+.Dress{
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+.Dress:hover{
+    color: rgb(255,0,0);
+    transition: .5s ease-in-out;
+}
+.latestProduct{
+    background-color: #e9ecef;
+    background-color: #111827;
+
+}
+.new{
+    position: absolute;
+    top:20px;
+    left:10px;
+}
+.best-product-section{
+    padding:126px 0;
+    
+    /* background-color: #e9ecef; */
+    background-color: #111827;
+
+}
+.bg-bestProduct{
+    /* background-color:#FFF6D9 ; */
+    background-image: url(../Images/BackgroundLine.2aa0910fef98274b2f4855249cd61c4c.svg);
+
+    background-color: #FEFCE8;
+}
+.imgBestProduct{
+    margin-top: -120px;
+}
+.OurShop{
+    font-family: 'Oleo Script', cursive;
+}
+.ShopNow:hover{
+    transform: translateY(-3px);
+    transition: .3s ease-in-out;
+}
+.ShopNow{
+    transform: translateY(0px);
+    transition: .3s ease-in-out;
+    padding: 8px 38px;
+}
+.Designers{
+    color:#808080;
+}
+.bestCollection{
+    font-size: 2.5rem;
+}
+.bestCollectionSection{
+   background-color: #FFDBDF;
+   margin-bottom: 50px;
+   background-image: url(../Images/BackgroundLine.2aa0910fef98274b2f4855249cd61c4c.svg);
+
+}
+.bg-img{
+   background-image: url(../Images/BackgroundLine.2aa0910fef98274b2f4855249cd61c4c.svg);
+    
+}
+.Shop-Now-2{
+    padding: 8px 38px;
+}
+.control:focus {
+       background-color: #fff;
+       border: none;
+}
+
+.inputSection{
+    background-color:  #DFF1FF;
+    height: 50vh;
+}
+
+.control ::placeholder{
+    font-size: 20px;
+}
+.inputBtn{
+    position: absolute;
+    top: 0;
+   right:0;
+}
+.control{
+    width: 300px;
+}
+.secondMainBG{
+    background-color: #e9ecef;
+}
+.mainBGcolor-2{
+    background-color: #E3FFE6;
+}
+.specialOfferBg{
+    background-color: #FEFCE8;
+    background-image: url(../Images/BackgroundLine.2aa0910fef98274b2f4855249cd61c4c.svg);
+}
+.SpecialSize{
+    font-size: 2rem;
+}
+.section-latest{
+    padding: 50px 0;
+}
+.heading{
+    color: burlywood;
+}
+.heading:hover{
+    color: burlywood;
+}
+.community{
+    color: #808EAB;
+}
+.community:hover{
+    color: #fff;
+}
+.facebook-1{
+    color: rgb(25, 119, 243);
+}
+.twitter-1{
+    color:rgb(29, 161, 242);
+}
+.telegram-1{
+    color:#269CD9;
+}
+.heading-1{
+    display:inline-block;
+    position: relative;
+    padding: 2px 0;
+}
+.heading-1::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: burlywood;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* transform: translateX(-50%); */
+    transition: 0.5s ease-in-out;
+}
+.heading-1:hover::before{
+    width: 100%;
+}
+.modal-backdrop{
+    z-index: -1;
+}
+.dress-3{
+    color: #269CD9;
+}
+.byCatagory{
+    padding-bottom: 60px;
+}
+.top-1{
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    background-color: #269CD9;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+ }
+ .imgTestimonial{
+    width: 22%;
+    height: 22%;
+    border: 4px solid #625b4b;
+}
+.bg-card-1{
+   background-color: #E3FFE6;
+}
+.bg-cards{
+    background-color: #E6ECF5;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #C280D2;
+}
+ 
+/* -------------------- */
+@media (min-width:768px)
+{
+    .mega-box{
+        width: 100%;
+    }
+    .modal{
+        margin-top:3.5rem;
+    }
+    .btnColor{
+        background-color: #0EA5E9;
+    }
+    .season{
+        font-size: 1.25rem;
+    }
+    .heroSection{
+        height: 85vh;
+    }
+    
+    .oleoScript{
+        font-size: 40px;
+    }
+
+    .control{
+        width: 350px;
+    }
+    .control-2{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .controlbtn-2{
+        color:#C280D2 ;
+        transition: .5s ease-in-out;
+    }
+    .controlbtn-2:hover{
+         color: #0EA5E9;
+         transition: .5s ease-in-out;
+    }
+   
+
+}
+/* --------------------- */
+@media (min-width:992px)
+{
+   
+.mega-box{
+    position: absolute;
+    width: 700px;
+    top:65px;
+    left:0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease-in-out;
+}
+.nav-item-1:hover .mega-box{
+    opacity: 1;
+    visibility: visible;
+}
+.border-1{
+   border-left: 1px solid #8e8a8a;
+} 
+.exlusive{
+    font-size: 3.5rem;
+    color: #0F172A;
+}
+.heroSection{
+    height: 100vh;
+}
+.newCollectio{
+    font-size: 20px;
+}
+.heroSection{
+    height: 95vh;
+}
+.oleoScript{
+    font-size: 48px;
+}
+.OurShop{
+    font-size: 3rem;
+}
+.ShopNow,.Shop-Now-2{
+    padding: 10px 40px;
+}
+.winter{
+    padding-top: 200px;
+}
+.bestCollection{
+    font-size: 3rem;
+}
+.control{
+    width: 420px;
+}
+.inputBtn{
+    position: absolute;
+    top: 0;
+   right: -190px;
+}
+.SpecialSize{
+    font-size: 3rem;
+}
+.img-special{
+    margin-top:-130px;
+}
+.offerSection{
+    padding: 200px 0 60px;
+    
+}
+.section-latest{
+    padding: 50px 0 110px;
+}
+.bestCollectionSection{
+      margin: 0;   
+}
+.byCatagory{
+    padding-bottom: 90px;
+}
+}
+/* ---------------------- */
+@media (min-width:1400px)
+{.magnifier-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+   }
+   .magnifier-btn:hover{
+    background-color:rgb(30 41 59);
+}
+.oleoScript{
+    font-size: 55px;
+}
+.exlusive{
+    font-size: 4.5rem;
+    color: #0F172A;
+}
+.newCollectio{
+    font-size: 26px;
+}
+.new{
+    position: absolute;
+    top:30px;
+    left:40px;
+}
+.OurShop{
+    font-size: 4rem;
+}
+.SpecialSize{
+    font-size: 4rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="icon" href="Images/surgery-pin.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Doctor | Responsive Project with Bootstrap</title>
+</head>
+<body>
+
+    <div class=" d-none d-lg-block">
+           <span class="top-1">
+               <a href="#" target="_top"><i class="bi bi-arrow-up-short text-white fs-2"></i></a>
+            </span>
+
+    </div>
+ 
+
+    <header class="headerBgImage">
+        <section class="mediasectionTop py-3">
+           <div class="container d-flex align-items-center justify-content-between">
+            <ul class="d-flex text-white  align-items-center mb-0 d-none d-lg-flex">
+                <li class="pe-4"><a class="text-white" href=""><i class="fa-solid fa-clock me-2"></i>Monday - Friday 8AM - 7PM</a></li>
+                <li class="pe-4"><a class="text-white" href="tel:+0800 2336 7811"><i class="fa-solid fa-phone me-2"></i>+0800 2336 7811</a></li>
+                <li class="pe-4"><a class="text-white" href=""><i class="fa-sharp fa-solid fa-location-dot me-2"></i>New York, W2 3XE</a></li>
+            </ul>
+    
+            
+            <ul class="d-flex align-items-center mb-0 ms-auto d-none d-lg-flex pe-md-3 pe-lg-0">
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-facebook mediaColor"></i></a></span></li>
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-instagram mediaColor"></i></a></span></li>
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-twitter mediaColor"></i></a></span></li>
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-linkedin mediaColor"></i></a></span></li>
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-google-plus-g mediaColor"></i></a></span></li>
+            </ul>
+            
+            <a class="navbar-brand d-lg-none" href="#"><img src="Images/surgery-logo-white.png" alt=""></a>
+            <div class="d-flex justify-content-between">
+              <button type="button" class="btn p-0 d-lg-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="fa-solid fa-bars text-white fs-1"></i>
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal lh-lg fade d-lg-none" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog  m-0">
+                  <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <a href="#" class="btn-close " data-bs-dismiss="modal" aria-label="Close">
+                            <i class="fa-solid fa-xmark fs-2 text-white"></i>
+                        </a>
+                    </div>
+                    <div class="modal-body">
+                            <ul>
+                                <li class="pb-2"><a href="#" class="text-white">Home</a></li>
+
+                                <li class="dropdown pb-2"><a href="#" class="text-white"  data-bs-toggle="dropdown" >About us</a>
+                                    <ul class="dropdown-menu bg-black lh-lg rounded-0 ">
+                                
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> General information</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Team</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Doctors profile</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Gallaries</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Working hours</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> appointment</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Contact us</a></li>
+        
+                                    </ul>
+                                </li>
+                                <li class="dropdown pb-2">
+                                    <a href="#" class="text-white" data-bs-toggle="dropdown">Pages</a>
+                                    <ul class="dropdown-menu lh-lg rounded-0 ">
+                                        
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Services</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Cost Calculator</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Procedure</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Departm ent</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Lacation</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> FAQ</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Testimonials</a></li>
+        
+                                    </ul>
+                                </li>
+                                <li class="dropdown pb-3"><a href="#" class="text-white" data-bs-toggle="dropdown" >Pricing</a>
+                                    <ul class="dropdown-menu lh-lg rounded-0 ">
+                                
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> General information</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Team</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Doctors profile</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Gallaries</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Working hours</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> appointment</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Contact us</a></li>
+        
+                                    </ul>
+                                </li>
+                                <li class="dropdown pb-3"><a href="#" class="text-white" data-bs-toggle="dropdown" >Latest news</a>
+                                    <ul class="dropdown-menu lh-lg rounded-0 ">
+                                
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Blog grid</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Blog tiles</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Classic list</a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Colomns view</a></li>
+        
+                                    </ul>
+                                      
+                                </li>
+                                <li class="pb-3 "><a href="#" class="text-white">Shop</a></li>
+                                <li class="pb-3"><a href="#" class="text-white">Contact</a></li>
+                            </ul>
+                    </div>
+            
+                  </div>
+                </div>
+              </div>
+
+           </div>
+
+        </div>
+        </section>
+    
+        <!-- navigation -->
+          <section>
+              <nav class="navbar navbar-expand-lg d-none d-lg-block">
+                  <div class="container">
+                  <a class="navbar-brand" href="#"><img src="Images/surgery-logo-white.png" alt=""></a>
+                       <ul class="navbar-nav">
+                           <li class="nav-item  ms-1 ps-4"><a class="nav-link menus home" href="#">Home</a></li>
+                           <li class="nav-item dropdown  ms-1 ps-4">
+                            <a class="nav-link menus" data-bs-toggle="dropdown" href="#">About</a>
+                            <ul class="dropdown-menu lh-lg rounded-0 ">
+                                
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> General information</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Team</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Doctors profile</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Gallaries</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Working hours</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> appointment</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Contact us</a></li>
+
+                            </ul>
+                              
+                           </li>
+                           <li class="nav-item dropdown  ms-1 ps-4">
+                            <a class="nav-link menus" data-bs-toggle="dropdown" href="#">Pages</a>
+                            <ul class="dropdown-menu lh-lg rounded-0 ">
+                                
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Services</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Department</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Procedure</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Lacation</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Cost Calculator</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> FAQ</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Testimonials</a></li>
+
+                            </ul>
+                              
+                           </li>
+                           <li class="nav-item dropdown  ms-1 ps-4">
+                            <a class="nav-link menus" data-bs-toggle="dropdown" href="#">Pricing</a>
+                            <ul class="dropdown-menu lh-lg rounded-0 ">
+                                
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> General information</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Team</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Doctors profile</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Gallaries</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Working hours</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> appointment</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Contact us</a></li>
+
+                            </ul>
+                              
+                           </li>
+                           <li class="nav-item dropdown  ms-1 ps-4">
+                            <a class="nav-link menus" data-bs-toggle="dropdown" href="#">Latest news</a>
+                            <ul class="dropdown-menu lh-lg rounded-0 ">
+                                
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Blog grid</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Blog tiles</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Classic list</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-chevron-right text-white icon-size"></i> Colomns view</a></li>
+
+                            </ul>
+                              
+                           </li>
+                           <li class="nav-item  ms-1 ps-4"><a class="nav-link menus" href="#">Shop</a></li>
+                           <li class="nav-item  ms-1 ps-4"><a class="nav-link menus" href="#">Contact</a></li>
+                       </ul>
+                  </div>
+              </nav>
+
+              
+              
+              
+                 
+            <ul class="d-flex  align-items-center justify-content-end d-lg-none  mb-0 ms-auto pe-md-4 ">
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-facebook mediaColor"></i></a></span></li>
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-instagram mediaColor"></i></a></span></li>
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-twitter mediaColor"></i></a></span></li>
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-linkedin mediaColor"></i></a></span></li>
+                <li><span class="media"><a href="#" ><i class="fa-brands fa-google-plus-g mediaColor"></i></a></span></li>
+             </ul>
+                      
+          </section>
+          
+
+          <section class="weTakeCareSection">
+            <div class="container text-center text-white">
+                <h1 class="weTakeCare" data-aos="fade-down" data-aos-duration="1000">
+                    We <span class="take position-relative">  take</span>  <span class=" createRound"> care</span>
+                </h1>
+
+                <p class="medicare pt-3" data-aos="flip-left" data-aos-duration="1000" >
+                    We at Medicare are always fully focused on helping your to overcame any surgeon procedure, with great commitment and easy recovery.
+                </p>
+                <div class="pt-5"  data-aos="fade-up" data-aos-duration="1000">
+                    
+                    <a  href="" class="btn-1  px-1 px-md-3 py-2 me-2 text-white mb-5 " >Discover more</a> 
+                    <a href="" class="btn-2 px-1 px-md-3 py-2 ms-2 text-white ">View services</a>
+                </div>
+
+                <div class="container p-0 pad-x d-md-none">
+                 <div class="formDiv">
+                      <div class="row  pt-3">
+                          <div class="col-md-4">
+                               <p class="text-start have pt-3 px-3"> <span class="take-1">Have</span>  an emergency ?</p>
+                               <h1 class="text-start px-3 visit">Book your visit</h1>
+                          </div>
+
+                          <div class="col-md-8 pt-5 pt-md-3">
+                            <div class="">
+                             <form action="" class="row justify-content-center">
+                                    <input class=" input-3  border-0 w-75 rounded-0  p-2 mb-2" type="text" placeholder="Your name *">
+                                    <input class=" input-3  border-0 w-75 rounded-0  p-2 mb-2" type="email" placeholder="Your name *">
+                               
+
+                                      <select class="input-3 text-white w-75 border-0  rounded-0 p-2 mb-2" name="" id="">
+                                       <option value="">Select your surgeon</option>
+                                       <option value="">Janelle Chambers</option>
+                                       <option value="">Bernice Ray</option>
+                                       <option value="">Larissa lanson</option>
+                                       <option value="">Marleen Denman</option>
+                                       <option value="">Dorian Teel</option>
+ 
+                                      </select>
+                              
+
+                           
+                                    <input class=" input-3 text-white border-0  w-75 rounded-0 p-2 mb-4" type="date" placeholder="Your name *">
+
+                   
+
+                             </form>
+                            <div class="text-md-end me-md-5"><button class=" bookNow text-white px-3 py-2 p-2 mt-3" href="#">Book now</button></div>
+                          </div>
+                        </div>
+                        </div>
+                    
+                 </div>
+            </div>
+
+            </div>
+
+
+          </section>
+
+
+    </header>
+
+    <section class=" proffesionals-1" >
+        <div class="container pad-x d-none d-md-block" data-aos="fade-up" data-aos-duration="1000">
+            <div class="formDiv ">
+                 <div class="row  pt-3" >
+                     <div class="col-md-4">
+                          <p class="text-start text-white have pt-3 px-3"> <span class="take-1">Have</span>  an emergency ?</p>
+                          <h1 class="text-start text-white px-3 visit">Book your visit</h1>
+                     </div>
+
+                     <div class="col-md-8 pt-5 pt-md-3 text-center">
+
+                         
+                         <form action="" class="mb-2">
+                            <input class=" border-0 opacity-75  rounded-0 input-1 p-2 mb-2" type="text" placeholder="Your name *">
+                            <input class=" border-0 opacity-75 rounded-0  input-1 p-2 mb-2 ms-4" type="email" placeholder="Your email *">
+                        </form>
+                    
+                        
+                        <form action="">
+
+                                 <select class=" text-white opacity-75 border-0 input-1 rounded-0 p-2 mb-2" aria-placeholder="Select your surgeon" name="" id="">
+                                  <option value="">Select your surgeon</option>
+                                  <option value="">Janelle Chambers</option>
+                                  <option value="">Bernice Ray</option>
+                                  <option value="">Larissa lanson</option>
+                                  <option value="">Marleen Denman</option>
+                                  <option value="">Dorian Teel</option>
+
+                                 </select>
+                         
+
+                                 <input class=" text-white opacity-75 ms-4 border-0 input-1 rounded-0 p-2 mb-4" type="date">
+                        
+
+                            </form>
+                     
+
+                       <div class="text-md-end me-md-4 me-lg-5"><button class=" bookNow text-white px-3 py-2 p-2 mt-3 me-2" href="#">Book now</button></div>
+                     </div>
+                   </div>
+                   </div>
+               
+            </div>
+
+       
+
+
+        <div class="container proffesionals">
+            <div class="row">
+                <div class="col-md-3  mb-4 col-md-6 col-xl-3"   data-aos="flip-left" data-aos-duration="1000">
+                    <div class="staff text-white p-3 pb-5 pt-5">
+                        <h3 class="pb-4"><span class="take-3">Professional </span> <span class="d-xl-none d-xxl-inline-block"> staff</span></h3>
+                        <p class="pb-3">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+                        <button class="text-black readdMore border-0 px-2 py-2">Read more <i class="bi bi-chevron-right text-black icon-size-1"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3  mb-4 col-md-6 col-xl-3"   data-aos="flip-left" data-aos-duration="1000">
+                    <div class="staff-1 text-white p-3 pb-5 pt-5">
+                        <h3 class="pb-4"><span class="take-4">Affordable <spand class="d-xl-none d-xxl-inline-block">prices</spand>  </span> </h3>
+                        <p class="pb-3">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+                        <button class="text-black readdMore border-0 px-2 py-2">Read more <i class="bi bi-chevron-right text-black icon-size-1"></i></button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4  col-md-6 col-xl-3"   data-aos="flip-left" data-aos-duration="1000">
+                    <div class="staff text-white p-3 pb-5 pt-5">
+                        <h3 class="pb-4"><span class="take-3">Great services </span> </h3>
+                        <p class="pb-3">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+                        <button class="text-black readdMore border-0 px-2 py-2">Read more <i class="bi bi-chevron-right text-black icon-size-1"></i></button>
+                    </div>
+                </div>
+
+                <div class="col-md-3  mb-4 col-md-6 col-xl-3"  data-aos="flip-left" data-aos-duration="1000">
+                    <div class="staff-1 text-white p-3 pb-5 pt-5">
+                        <h3 class="pb-4"><span class="take-5">Consultations </span></h3>
+                        <p class="pb-3">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+                        <button class="text-black readdMore border-0 px-2 py-2">Read more <i class="bi bi-chevron-right text-black icon-size-1"></i></button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about us -->
+<section class=" sec-bg overflow-hidden">
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-6  p-3">
+               <div class="p-5 bg-bg d-flex justify-content-end" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="Images/about1.jpg" class="img-fluid border-opacity-10 border-img" alt="">
+               </div>
+            </div>
+
+            <div class="col-lg-6 pt-lg-5"  >
+                    <div class=" pt-lg-3 pb-md-3 pb-lg-5"><h1 class="latest" data-aos="fade-up" data-aos-duration="1000"> <span class="take-9">About</span>  us</h1></div>
+
+                    <h2 data-aos="fade-up" data-aos-duration="1000" >We are trusted The Best Certificate Healthcare</h2>
+                    <p  data-aos="fade-up" data-aos-duration="1000" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <p  data-aos="fade-up" data-aos-duration="1000" ><i class="bi bi-sign-turn-right-fill me-1 sliderbtn"></i> Scientific skills for getting a better result</p>
+                    <p  data-aos="fade-up" data-aos-duration="1000" ><i class="bi bi-sign-turn-right-fill me-1 sliderbtn"></i> A good environment for work</p>
+                    <p  data-aos="fade-up" data-aos-duration="1000" ><i class="bi bi-sign-turn-right-fill me-1 sliderbtn"></i> Professional doctors</p>
+                    <p  data-aos="fade-up" data-aos-duration="1000" ><i class="bi bi-sign-turn-right-fill me-1 sliderbtn"></i> Digital laboratory</p>
+                    <p  data-aos="fade-up" data-aos-duration="1000" ><i class="bi bi-sign-turn-right-fill me-1 sliderbtn"></i> Emergency services</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <section class="pb-5 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4"  data-aos="zoom-in" data-aos-duration="1000">
+                     <img src="Images/joanna.jpg " class="img-fluid" alt="">
+                </div>
+
+                <div class="col-md-6 pb-1"  data-aos="zoom-in" data-aos-duration="1000" >
+                      <img src="Images/book-image.jpg" class="img-fluid bookimg" alt="">
+                </div>
+                <div class="col-md-6 mb-4 pt-4 respectful " data-aos="fade-right" data-aos-duration="1000">
+                    <p class="fs-5">The name behind the respectful results</p>
+                    <h1 class="Bryan">Dr Joanna Bryan</h1>
+                    <p class="">Duis at lorem venenatis, mattis nunc sollicitudin, pellentesque nisl. Suspendisse diam tellus, iaculis ut commodo at, consequat sit amet sem. Aliquam eu felis id ante semper laoreet. Nunc semper magna at lacus tristique, eu dignissim eros posuere. Curabitur pulvinar, nulla sit amet fringilla euismod, ipsum risus.</p>
+                    <button type="button" class="work-btn text-white border-0 px-3 py-2 me-1">Working hours</button>
+                    <button type="button" class="book-btn text-white border-0 px-3 py-2 ms-1">Book a visit</button>
+
+                </div>
+                <div class="col-md-6 order-last order-md-0 pt-4 listening-1  text-white " data-aos="fade-left" data-aos-duration="1000">
+                 <div class="listening px-2 ps-3 py-3">
+                    <p class="fs-5">Being there for you, listening &amp; understanding</p>
+                    <h1 class="Bryan">How can I <span class="help">help?</span></h1>
+                    <p class="">lorem at  venenatis, mattis nunc sollicitudin, pellentesque nisl. Suspendisse diam tellus, iaculis ut commodo at, consequat sit amet sem. Aliquam eu felis id ante semper laoreet. Nunc semper magna at lacus tristique, eu dignissim eros posuere. Curabitur pulvinar, nulla sit amet fringilla euismod, ipsum risus.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+<!-- carousel section -->
+    <section class=" pb-5 py-lg-4 overflow-hidden">
+
+        
+
+        <div class="container">
+
+            <div class="text-center">
+                <h1 class="latest "  data-aos="fade-up" data-aos-duration="800"><span class="take-8"> Our </span> Specialist Doctors</h1>
+                <p class="ipsm" data-aos="fade-up" data-aos-duration="1200">Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta, temporibus.</p>
+            </div>
+            <div class="carousel slide" id="mySlider" data-bs-ride="carousel">
+            
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="row">
+                             <div class=" col-lg-4 col-md-6 p-4">
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-2 text-center">
+                                     <img src="Images/doctor1.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Jelin Alis</h4>
+                                      <h5>Cardiologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            <div class=" col-lg-4 col-md-6 p-4" data-aos="zoom-in" data-aos-duration="1000" >
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-3 text-center">
+                                     <img src="Images/doctor2.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Kalis Alis</h4>
+                                      <h5>Necrologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            <div class=" col-lg-4 col-md-6 p-4  ">
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-2 text-center">
+                                     <img src="Images/doctor3.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Sunny Alis</h4>
+                                      <h5>Psychologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="row">
+                             <div class=" col-lg-4 col-md-6  p-4">
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-2 text-center">
+                                     <img src="Images/doctor2.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Kalis Alis</h4>
+                                      <h5>Necrologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6  p-4">
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-3 text-center">
+                                     <img src="Images/doctor3.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Sunny  Alis</h4>
+                                      <h5>Psychologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            <div class=" col-lg-4 col-md-6 p-4 ">
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-2 text-center">
+                                     <img src="Images/doctor1.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Jelin Alis</h4>
+                                      <h5>Cardiologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                             <div class=" col-lg-4 col-md-6  p-4">
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-2 text-center">
+                                     <img src="Images/doctor3.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Kalis Alis</h4>
+                                      <h5>Psychologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            <div class=" col-lg-4 col-md-6  p-4">
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-3 text-center">
+                                     <img src="Images/doctor1.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Jelin Alis</h4>
+                                      <h5>Cardiologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu-4 mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            <div class=" col-lg-4 col-md-6   p-4">
+                                <div class="figure-2  p-3">
+                
+                                 <div class="img-2 text-center">
+                                     <img src="Images/doctor2.png" class="img-fluid"  alt="">
+                                  </div>
+                                   
+                                  <div class="text-center pt-3">
+                                      <h4 class="fw-semibold">Dr. Kalis Alis</h4>
+                                      <h5>Necrologist</h5>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem nulla!</p>
+                                      <ul class="d-flex justify-content-center">
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-facebook text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-instagram  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-twitter  text-white"></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-linkedin text-white "></i></a></span></li>
+                                       <li><span class="iconsMenu mx-1"><a href="#" ><i class="fa-brands fa-google-plus-g text-white "></i></a></span></li>
+                                      </ul>
+                                  </div>
+
+                                   
+                               
+                             </div>
+                            </div>
+
+                            
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev d-none d-xxl-block" type="button" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="" aria-hidden="true"><i class="bi bi-arrow-left-circle-fill sliderbtn fs-2"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next d-none d-xxl-block" type="button" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="" aria-hidden="true"><i class="bi bi-arrow-right-circle-fill sliderbtn fs-2"></i></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+
+            </div>
+        </div>
+    </section>
+
+
+  <!-- latest news section -->
+  <section class="overflow-hidden">
+    <div class="container  pb-5 py-lg-5">
+        <div class="text-center"  >
+            <h1 class="latest " data-aos="fade-up" data-aos-duration="800"><span class="take-9 ">Our </span> Latest News</h1>
+            <p class="ipsm" data-aos="fade-up" data-aos-duration="1200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+
+            </p>
+        </div>
+        <div class="row">
+                <div class="col-lg-4 col-md-6 p-4" data-aos="zoom-in" data-aos-duration="1000">
+                      <figure class="position-relative figure-1">
+                        <img src="Images/blog1.jpg" class="img-fluid" alt="">
+                        <span class="position-absolute top-0 start-0 may-1 p-2 text-white">10 May 2022</span>
+                        <figcaption class="Medical ps-3 pb-4">
+                            <p class="pt-3">Medical</p>
+                            <h4 class="pb-3">250+ Medical Tips We just had to share</h4>
+                            <a href="#" class="help-2">Read More +</a>
+                        </figcaption>
+                      </figure>
+                </div>
+
+                <div class="col-lg-4 col-md-6 p-4">
+                    <figure class="position-relative figure-1 ">
+                      <img src="Images/blog2.jpg" class="img-fluid bg-white" alt="">
+                      <span class="position-absolute top-0 start-0 may-1 p-2 text-white">11 May 2022</span>
+                      <figcaption class="Medical ps-3 pb-4">
+                          <p class="pt-3">Treatment</p>
+                          <h4 class="pb-3">350+ Medical Tips We just had to share</h4>
+                          <a href="#" class="help-2">Read More +</a>
+                      </figcaption>
+                    </figure>
+              </div>
+
+              <div class="col-lg-4 col-md-6 p-4" data-aos="zoom-in" data-aos-duration="1000">
+                <figure class="position-relative figure-1">
+                  <img src="Images/blog3.jpg" class="img-fluid" alt="">
+                  <span class="position-absolute top-0 start-0 may-1 p-2 text-white">12 May 2022</span>
+                  <figcaption class="Medical ps-3 pb-4">
+                      <p class="pt-3">Medical</p>
+                      <h4 class="pb-3">450+ Medical Tips We just had to share</h4>
+                      <a href="#" class="help-2">Read More +</a>
+                  </figcaption>
+                </figure>
+          </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- footer section-->
+   <section class="staff-1 py-5">
+    <div class="container">
+<!--
+        <div>
+            <img src="" alt="">
+        </div>
+-->
+        <div class="row">
+             <div class="col-md-6 col-lg-4 text-white">
+                  <h3>
+                    <span class="take-6">In short</span>  words</h3>
+                    <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
+
+                     
+            <ul class="d-flex align-items-center  mb-0 ms-auto d-none d-lg-flex ">
+                <li><span class="media-1"><a href="#" ><i class="fa-brands fa-facebook mediaColor"></i></a></span></li>
+                <li><span class="media-1"><a href="#" ><i class="fa-brands fa-instagram mediaColor"></i></a></span></li>
+                <li><span class="media-1"><a href="#" ><i class="fa-brands fa-twitter mediaColor"></i></a></span></li>
+                <li><span class="media-1"><a href="#" ><i class="fa-brands fa-linkedin mediaColor"></i></a></span></li>
+                <li><span class="media-1"><a href="#" ><i class="fa-brands fa-google-plus-g mediaColor"></i></a></span></li>
+            </ul>
+             </div>
+             <div class="col-md-6 col-lg-4 pt-4 pt-md-0">
+                <h3 class="text-white"><span class="take-6">About</span> us</h3>
+                <div class="row">
+                    <ul class="col-md-6">
+                        <li><a href="#" class="services">About</a></li>
+                        <li><a href="#" class="services">Services</a></li>
+                        <li><a href="#" class="services">Appointment</a></li>
+                        <li><a href="#" class="services">Location</a></li>
+                        <li><a href="#" class="services">Blog</a></li>
+                        <li><a href="#" class="services">Blog</a></li>
+                    </ul>
+
+                    <ul class="col-md-6">
+                        <li><a href="#" class="services">Working hours</a></li>
+                        <li><a href="#" class="services">Pricing</a></li>
+                        <li><a href="#" class="services">department</a></li>
+                        <li><a href="#" class="services">Testimonials</a></li>
+                        <li><a href="#" class="services">Cost calculator</a></li>
+                        <li><a href="#" class="services">FAQ</a></li>
+                    </ul>
+                </div>
+               
+             </div>
+             <div class="col-md-6 col-lg-4 text-white pt-4 pt-md-4 pt-lg-0">
+                    <h3><span class="take-7"> Subscribe</span></h3>
+                    <p>Sign up for Medicare newsletter to receive all the news offers and discounts from Medicare eye clinic.
+                    </p>
+                    <form action="">
+                        <input type="email" class="col-12 mb-2 py-2 ps-2 input-3 border-0" placeholder="Enter your email">
+                        <button type="button" class="Suscribe  text-white  py-2  col-12  border-0">Suscribe</button>
+                    </form>
+
+
+
+             </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="py-4">
+    <div class="container">
+    <div class="d-md-flex justify-content-center justify-content-lg-between">
+        <p class="mb-0">Copyright designed by Bhushan Sontakke 2022. All rights reserved.</p>
+        <ul class="d-lg-flex mb-0 d-none d-lg-block">
+            <li><a href="#" class="ps-3 about">About us</a></li>
+            <li><a href="#" class="ps-3 about">Services</a></li>
+            <li><a href="#" class="ps-3 about">Blogs</a></li>
+            <li><a href="#" class="ps-3 about">Working hours</a></li>
+            <li><a href="#" class="ps-3 about">Contact us</a></li>
+        </ul>
+    </div>
+</div>
+   </section>
+   
+    
+
+
+
+   
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     AOS.init();
+     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

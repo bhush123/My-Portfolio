@@ -1,0 +1,597 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jost&family=Lobster&family=Open+Sans&family=Poppins&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Lobster&family=Open+Sans&family=Poppins&family=Sono&display=swap');
+:root{
+     --primaryColor:#D32525;
+     --blackColor:#000;
+     --white:#fff:
+}
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bgSpan{
+    display: inline-block;
+    background-color:#D32525;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    opacity: .7;
+    }
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+.carousel-control-next {
+    right: -130px;
+}
+.carousel-control-prev {
+    left: 50px;
+}
+.img-scale:hover{
+    transform: scale(1.2);
+    transition: .5s ease-in;
+}
+.img-scale{
+    transition: .5s ease-in;
+}
+.container-6:hover .img-scale-1{
+    transform: scale(1.1);
+    transition: .5s ease-in;
+}
+.container-6 .img-scale-1{
+    transition: .5s ease-in;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.fundly{
+    font-family: 'Lobster', cursive;
+}
+.navSize{
+    font-size: 14px;
+}
+.bg-hero{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(../images/banner10.c032050c3f1371b5512b.jpg);
+    height:100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -113px;
+}
+.bg-hero-2{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)) ,url(../images/slider-finansio-5\ \(1\).jpg);
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -113px;
+}
+.bg-hero-3{
+    /* background:url(../images/3.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)) ,url(../images/slider-finansio-8.jpg);
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -113px;
+}
+.linearGradient{
+    /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)); */
+    background: linear-gradient(to bottom,rgba(255,0,0,0),rgba(225, 71, 71, 0.2),rgba(232, 63, 63, 0.3),rgba(254, 6, 6, 0.9));
+     z-index: 1;
+
+}
+.topIcon{
+    display: inline-block;
+    width: 48px;
+    height:48px;
+    border: 3px solid var(--primaryColor);
+    transition: .5s ease-in-out;
+}
+.topIcon:hover{
+    background-color: var(--primaryColor);
+    transition: .5s ease-in-out;
+}
+.iconTop{
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    z-index: 999; /*1030*/
+}
+.YourMoney{
+    bottom: 9rem;
+}
+.btn-1{
+    background-color: var(--primaryColor);
+
+}
+.btn-2:hover{
+   border: var(--blackColor);
+   background-color:#222;
+   color: var(--white);
+   transition: 0.5s ease-in-out;
+}
+.btn-3:hover{
+    background-color: #222;
+    transition: 0.5s ease-in-out;
+}
+.aboutBg{
+    background-image:url(../images/cr-h1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spanStyle{
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    border:4px solid var(--primaryColor);
+    border-bottom: none;
+}
+.spanStyle-1{
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    border-top:4px solid var(--primaryColor);
+}
+.spanImg{
+    display: inline-block;
+    width: 75px;
+    height:75px;
+    border: 2px solid var(--primaryColor);
+}
+.spanImg:hover{
+    background-color: var(--primaryColor);
+    transition: 0.5s ease-in-out;
+}
+.spanImg:hover .img-color{
+   color: #fff;
+}  
+.img-color{
+    color: var(--primaryColor);
+}
+.lorem{
+    font-size: 18px;
+}
+.as-Always{
+    color:#727272;
+}
+.as-Always-1{
+    color:#c8c4c4;
+}
+.project{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../images/bg-project-h1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-coloe-2{
+    color: var(--primaryColor);
+}
+.FontSize{
+    font-size: 2rem;
+}
+.spanStyle-2{
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    border:4px solid var(--primaryColor);
+    border-bottom: none;
+}
+.spanStyle-3{
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    border-top:4px solid var(--primaryColor);
+}
+.ourPartner{
+    background-color: rgb(20, 20, 20);
+}
+.cards-bg{
+    background-color: #F3F3F3;
+}
+.indicators{
+  bottom: -68px;
+}
+.learnMore{
+    border: 1px solid #fff;
+    color: #000;
+    font-size: 14px;
+}
+.learnMore:hover{
+    background-color: var(--primaryColor);
+    color:#fff;
+    border:3px solid var(--primaryColor);
+    transition: 0.5s ease-in-out;
+}
+.taxation{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 14px;
+    height: 14px;
+    background-color: #D32525;
+    border-radius: 50%;
+}
+.ourProjects,.clients-section{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(../images/bg-project-h1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 44, 78, 0.9);
+    /* background: linear-gradient(to bottom,rgba(10, 44, 78, 0),rgba(10, 44, 78, 0.8),rgba(10, 44, 78, 1)); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+
+}
+.text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    top:45% ;
+}
+.container-1:hover .overlay{
+    opacity: 1;
+}
+.overlay-2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 44, 78, 0.9);
+    /* background: linear-gradient(to bottom,rgba(10, 44, 78, 0),rgba(10, 44, 78, 0.8),rgba(10, 44, 78, 1)); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+
+}
+.text-2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+.container-2:hover .overlay-2{
+    opacity: 1;
+}
+.overlay-3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 44, 78, 0.9);
+    /* background: linear-gradient(to bottom,rgba(10, 44, 78, 0),rgba(10, 44, 78, 0.8),rgba(10, 44, 78, 1)); */
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+}
+.text-3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+.container-3:hover .overlay-3{
+    opacity: 1;
+}
+.underline-effect{
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.underline-effect::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 50%;   /*start from left 50% to 100%*/
+    transform: translateX(-50%);   /*start from center will move reverse direction because -50% translateX*/
+    bottom:0;
+    background: linear-gradient(to right,rgba(211, 37, 37,1),rgba(141, 211, 37,0.6));
+    transition: 0.5s ease-in-out;
+}
+.underline-effect:hover::before{
+    width: 50%;
+    /* width: 100%; */
+}
+.marion{
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: #D32525;
+}
+  .indicatorsMove{
+    left:62%;
+    top:-100px;
+}
+.imagination{
+    font-size: 15px;
+}
+.iconbg-1{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:#fff;
+    display: grid;
+    place-items: center;
+    transition: .5s ease-in-out;
+}
+.iconbg-1:hover{
+    background-color: #D32525;
+    transition: .5s ease-in-out;
+    transform: translateX(8px);
+}
+.iconbg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color:rgba(45, 44, 44, 0.6);
+    display: grid;
+    place-items: center;
+    transition: .5s ease-in-out;
+}
+.iconbg:hover{
+    background-color: #D32525;
+    transition: .5s ease-in-out;
+    transform: translatey(-6px);
+}
+.underlineFooter{
+    display: inline-block;
+    width: 35px;
+    height: 3px;
+    background-color: #D32525;
+    margin-bottom: 9px;
+}
+.overcolor:hover{
+    color: #D32525;
+}
+.overcolor{
+    color: #fff;
+}
+.lisize{
+    font-size: 14px;
+    line-height: 2;
+}
+.li:hover .history{
+    color: #D32525;
+}
+.copyRight{
+    background-image: url(../images/cr-h1.jpg);
+}
+.underline-effect-footer{
+    display: inline-block;
+    position: relative;
+    padding: 5px 0;
+}
+.underline-effect-footer::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #D32525;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: .5s ease-in-out;
+}
+.underline-effect-footer:hover::before{
+    width: 70%;
+}
+
+.container-6{
+    position: relative;
+   
+}
+.overlay-6{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0, 0, 0,0.2),rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.9));
+}
+.container-6:hover  .overlay-6{
+    height:100% ;
+}
+.text-6{
+   position: absolute;
+   left: 0;
+   top:15%;
+   opacity: 0;
+   transition: 0.7s ease-in-out;
+}
+.container-6:hover .text-6{
+    opacity: 1;
+    transform: translateX(20px);
+}
+.testimonialsIndicators{
+    bottom:-46px;
+}
+.facebook-color{
+    color: rgb(25, 119, 243);
+}
+.twitter-color{
+    color: rgb(29, 161, 242);
+}
+.linkd-colr{
+    color: rgb(0, 119, 181);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar-nav .dropdown-menu{
+    width: 200px;
+    margin: 0;
+}
+.navSection{
+    background-color: #D32525;
+    z-index: 999;
+}
+.dropdown-item:hover{
+   background-color: #D32525;
+}
+.nav-link .dropdown-menu {
+    top:118%;
+}
+.dropdown-item{
+    font-size: 13px;
+}
+.North-cost{
+    font-size: 13px;
+}
+.sizeImg{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+}
+.dropdown-toggle::after {
+    margin-left:15px;
+}
+.cart{
+padding-right: 5px;
+}
+.underline-effect-2{
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.underline-effect-2::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 50%;   /*start from left 50% to 100%*/
+    transform: translateX(-50%);   /*start from center will move reverse direction because -50% translateX*/
+    bottom:0;
+    background: #fff;
+    transition: 0.5s ease-in-out;
+}
+.underline-effect-2:hover::before{
+    width: 50%;
+    /* width: 100%; */
+}
+.menus-1 {
+    top:102%;
+}
+.form-control::placeholder{
+    color: #fff;
+    font-size: 13px;
+}
+.text-color{
+   color:#b3afaf;
+}
+.text-color:hover{
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.text-color-2{
+    color:#b3afaf;
+}
+.text-color-2:hover{
+    color: #D32525;
+    transition: 0.3s ease-in-out;
+}
+.modal-backdrop{
+    z-index: -1;
+}
+.modal-content{
+    background-color: transparent;
+    border: none;
+    margin-top: 115px;
+}
+/* Tablet------------- */
+@media (min-width:768px){
+.YourMoney{
+        bottom: 8rem;
+    }
+    .focusBusiness{
+        font-size: 2rem;
+    }
+   
+}
+/*Laptop------------  */
+@media (min-width:992px){
+    .focusBusiness{
+        font-size: 3.5rem;
+    }
+    .img-height{
+        height: 500px;
+    }
+    .FontSize{
+        font-size: 2.5rem;
+    }
+    .text-6{
+        top:23%;
+    }
+}
+
+@media (min-width:1200px){
+    .carousel-control-next {
+        right: -95px;
+    }
+}
+/* ------------- */
+@media (min-width:1400px){
+    .carousel-control-next {
+        right: -130px;
+    }
+.YourMoney{
+        bottom: 9rem;
+    }
+    .Moving{
+        padding: 0px 200px;
+    }
+    .focusBusiness{
+        font-size: 3.5rem;
+    }
+    .img-height{
+        height: 398px;
+        object-fit: cover;
+    }
+    .text-6{
+        top:15%;
+    }
+    .modal-content{
+        background-color: transparent;
+        border: none;
+        left: 118%;
+        margin-top: 98px;
+        overflow: hidden;
+    }
+}
